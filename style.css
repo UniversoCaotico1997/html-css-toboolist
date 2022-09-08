@@ -67,11 +67,27 @@ body{
     margin-top: 40px;
     font-family: 'Arial',  sans-serif;
 }
+h2, p{
+    display: inline;
+}
 .space{
     display: inline-block;
     margin-top: 15px;
     font-family:'Arial',  sans-serif;    
 }
+.check{
+    color: #3CB371;
+    border: 2px solid #3CB371;
+    border-radius: 25px;
+}
+.xmarck{
+    color: red;
+    border: 2px solid red;
+    border-radius: 25px;
+    padding: 2px;
+}
+
+
 
 /* colors */
 .blue{
@@ -145,4 +161,7 @@ body{
 /* fine */
 #the_end{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
